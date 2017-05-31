@@ -72,6 +72,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/styles\/2-base\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/styles\/2-base\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/styles\/4-modules\/_4-modules.scss": {
 		"aP": 0,
 		"bl": 0,

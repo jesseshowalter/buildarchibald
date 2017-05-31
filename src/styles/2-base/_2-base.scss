@@ -1,11 +1,32 @@
-html{
-  background: #f8b319;
+@import 'normalize';
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  @media screen and (max-width: 800px) {
+    grid-template-columns: auto;
+  }
+}
+.brand{
+  background: #f8b318;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img{
+    width: 100%;
+  }
+}
+.contact{
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-img{
-  width: 100%;
-  max-width: 1000px;
-  margin: 200px auto 0;
-  display: block;
-  color: black;
+.form{
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
 }
